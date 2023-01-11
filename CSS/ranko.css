@@ -3,6 +3,7 @@ body{
     font-family:  Helvetical,Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
+    background-color: #DD4B68;
 }
 
 header{
@@ -17,20 +18,22 @@ h1,h2 {
 }
 
 header h1{
-    color: black;
+    color: #F389C3;
     font-size: 50px;
 }
 
 header img{
     border-radius: 150px;
     width: 300px;
-    border: 20px solid lightpink;
+
 }
 
 main{
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 30px;
+    border-radius: 12px 12px 0 0;
+    background-color: ghostwhite;
 }
 
 main img{
@@ -39,8 +42,9 @@ main img{
 
 h2{
     font-size: 35px;
-    color: lightpink;
+    color: #F27AA4;
     margin: 40px, 0 10px;
+    line-height: 30px;
 }
 
 a{
@@ -54,7 +58,7 @@ color: white;
 
 footer{
     text-align: center;
-    background-color: black;
+    background-color: #DD4B68;
     color: white;
     padding: 50px;
 }
